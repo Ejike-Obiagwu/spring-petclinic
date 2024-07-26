@@ -4,7 +4,7 @@ jobs:
   environment:
     name: NewEnv
     resourceType: MICHAEL
-    tags: <VM tag>
+    tags: VM tag
   strategy:
     rolling:
       maxParallel: 2  # for percentages, mention as x%
