@@ -2,8 +2,8 @@ jobs:
 - deployment: VMDeploy
   displayName: web
   environment:
-    name: <environment name>
-    resourceType: VirtualMachine
+    name: NewEnv
+    resourceType: MICHAEL
     tags: <VM tag>
   strategy:
       rolling:
